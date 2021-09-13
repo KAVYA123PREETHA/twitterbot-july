@@ -1,8 +1,4 @@
 import os
-pip install adafruit-io
-
-
-pip install python-telegram-bot==13.0 --quiet
 
 
 from Adafruit_IO import Client
