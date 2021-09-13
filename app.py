@@ -1,6 +1,5 @@
 import os
 
-
 from Adafruit_IO import Client
 aio = Client(os.getenv('uname'),os.getenv('feed'))
 
