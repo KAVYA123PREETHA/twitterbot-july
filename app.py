@@ -1,7 +1,9 @@
 import os
 
 from Adafruit_IO import Client
-aio = Client(os.getenv('uname'),os.getenv('feed'))
+p1=os.getenv('uname')
+p2=os.getenv('feed')
+aio = Client(p1,p2)
 
 
 from telegram.ext import Updater , MessageHandler , Filters
